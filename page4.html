@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이클로젯 | 데일리룩 추천</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding:0;
+        }
+        a {
+            text-decoration: none;
+            color: #F7F5F2;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: "맑은 고딕", "돋움";
+            font-size: 100%;
+        }
+        [class*="c_"] {
+            float: left;
+            padding: 10px;
+        }
+        /* 너비가 600픽셀 미만인 스마트폰을 위한 기본 설정 */
+        [class*="c_"] {
+            width: 100%
+        }
+        /* 너비가 600픽셀 이상인 태블릿을 위한 설정 */
+        @media only screen and (min-width: 600px) {
+            .c_m_1 {width: 8.33%}
+            .c_m_2 {width: 16.66%}
+            .c_m_3 {width: 25%}
+            .c_m_4 {width: 33.33%}
+            .c_m_5 {width: 41.66%}
+            .c_m_6 {width: 50%}
+            .c_m_7 {width: 58.33%}
+            .c_m_8 {width: 66.66%}
+            .c_m_9 {width: 75%}
+            .c_m_10 {width: 83.33%}
+            .c_m_11 {width: 91.66%}
+            .c_m_12 {width: 100%}
+        }
+        /* 너비가 768픽셀 이상인 데스크톱 컴퓨터, 노트북 등 */
+        @media only screen and (min-width: 768px) {
+            .c_1 {width: 8.33%}
+            .c_2 {width: 16.66%}
+            .c_3 {width: 25%}
+            .c_4 {width: 33.33%}
+            .c_5 {width: 41.66%}
+            .c_6 {width: 50%}
+            .c_7 {width: 58.33%}
+            .c_8 {width: 66.66%}
+            .c_9 {width: 75%}
+            .c_10 {width: 83.33%}
+            .c_11 {width: 91.66%}
+            .c_12 {width: 100%}
+        }
+
+        header {
+            height: 80px;
+            padding: 20px;
+            background-color: #D8C3A5;
+        }
+        header img {
+            float: left;
+        }
+        header h1 {
+            float: left;
+            padding: 5px;
+        }
+        aside#menu {
+            color: #F7F5F2;
+        }
+        aside#menu li {
+            padding: 10px;
+            margin: 5px 0 0 0;
+            background-color: #5C6B5F;
+        }
+        section #main {
+            padding: 15px;
+        }
+        section#main img {
+            width: 100%;
+        }
+        section#main h3{
+            margin: 5px 0 0 0;
+        }
+        #style ul {
+            margin-top: 5px;
+            list-style-type: none;
+        }
+        #style li {
+            display: inline-block;
+        }
+        footer {
+            height: 60px;
+            padding: 10px;
+            clear: both;
+            text-align: center;
+            background-color: #eeeeee;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="c_12">
+        <a href="index.html" target="_blank"><img src="logo.png" alt="logo"></a>
+        <h1>마이클로젯 | 데일리룩 추천</h1>
+    </header>
+
+    <aside id="menu" class="c_m_2 c_2">
+        <ul>
+            <li><a href="page1.html" target="_blank"><div>나의 옷장</div></a></li>
+            <li><a href="page2.html" target="_blank"><div>코디하기</div></a></li>
+            <li><a href="page3.html" target="_blank"><div>코디 캘린더</div></a></li>
+            <li><a href="page4.html" target="_blank"><div>데일리룩 추천</div></a></li>
+            <li><a href="page5.html" target="_blank"><div>게시판</div></a></li>
+        </ul>
+    </aside>
+
+    <section id="main" class="c_m_10 c_10">
+        <h3>데일리룩 추천</h3>
+        <div id="style">
+            <ul>
+                <li>추천 1. 여름 출근룩<br><img src="look_1.jpg" alt="추천룩1"><br>부드러운 색감의 시원한 슬랙스 코디</li>
+                <li>추천 2. 청바지 대학생룩<br><img src="look_2.jpg" alt="추천룩2"><br>심플하고 활동성 있는 청바지 대학생 코디</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="c_12">
+        COPYRIGHT(C) 마이클로젯 All Rights Reseved.
+    </footer>
+</body>
+</html>
